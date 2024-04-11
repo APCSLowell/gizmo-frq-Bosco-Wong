@@ -29,7 +29,7 @@ if(purchases.size() < 2)
 return false;
 else
 for(int x = 0; x < purchases.size()-1; x++)
-if(purchases.get(x).equals(purchases.get(x)) == true)
+if(purchases.get(x).equals(purchases.get(x+1)) == true)
 return true;
 
 return false;
